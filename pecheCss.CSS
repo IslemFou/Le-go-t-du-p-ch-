@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Redressed&display=swap');
+
+
+
+
+body {
+    .merriweather {
+        font-family: 'Merriweather', serif;
+    }
+
+    .redressed {
+        font-family: 'Redressed', sans-serif;
+    }
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: violet;
+    --bs-btn-border-color: violet;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgb(211, 130, 238);
+    --bs-btn-hover-border-color: violet;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: violet;
+    --bs-btn-active-border-color: violet;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: violet;
+    --bs-btn-disabled-border-color: violet;
+}
+
+
+header {
+    .menu-nav {
+        background: rgba(0, 0, 0, 0.5);
+        font-family: Merriweather;
+        box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+        z-index: 1;
+
+        .nav-link {
+            border-bottom: 1px solid transparent;
+            transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+
+            &:hover {
+                /* border-bottom: 2px solid var(--bs-teal); */
+                border-bottom-color: var(--bs-teal);
+                padding-bottom: 20px;
+            }
+        }
+    }
+
+    .btn-commande {
+        color: var(--bs-teal);
+        border-color: var(--bs-teal);
+
+        &:hover,
+        &:active {
+            color: #fff;
+            background-color: var(--bs-teal);
+            transition: 0.5s;
+        }
+    }
+
+    .banniere {
+
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url(../images/img/banniere2.jpg) center center no-repeat fixed;
+        background-size: cover;
+        height: 100vh;
+
+        .titre-banniere {
+            font-size: 48px;
+            font-weight: 400;
+            color: #fff;
+        }
+
+    }
+}
+
+
+main {
+
+    #nos-varietes,
+    #form-commande {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url(../images/img/banniere5.jpg) center center no-repeat fixed;
+        background-size: cover;
+        height: auto;
+    }
+}
