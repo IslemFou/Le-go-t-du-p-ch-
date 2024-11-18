@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Redressed&display=swap');
 
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box !important;
+}
 
-
-
+html,
 body {
+    margin: 0 !important;
+    padding: 0 !important;
+    scroll-behavior: smooth;
+    width: 100% !important;
+
     .merriweather {
         font-family: 'Merriweather', serif;
     }
@@ -13,7 +22,7 @@ body {
     }
 }
 
-.btn-primary {
+/* .btn-primary {
     --bs-btn-color: #fff;
     --bs-btn-bg: violet;
     --bs-btn-border-color: violet;
@@ -28,8 +37,22 @@ body {
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: violet;
     --bs-btn-disabled-border-color: violet;
-}
+} */
 
+.banniere {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(./assets/img/banniere2.jpg) center center no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+
+    .titre-banniere {
+        font-size: 48px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+}
 
 header {
     .menu-nav {
@@ -37,6 +60,7 @@ header {
         font-family: Merriweather;
         box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
         z-index: 1;
+        /* margin: 0 -15px; */
 
         .nav-link {
             border-bottom: 1px solid transparent;
@@ -62,20 +86,6 @@ header {
         }
     }
 
-    .banniere {
-
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-            url(../images/img/banniere2.jpg) center center no-repeat fixed;
-        background-size: cover;
-        height: 100vh;
-
-        .titre-banniere {
-            font-size: 48px;
-            font-weight: 400;
-            color: #fff;
-        }
-
-    }
 }
 
 
@@ -84,7 +94,7 @@ main {
     #nos-varietes,
     #form-commande {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-            url(../images/img/banniere5.jpg) center center no-repeat fixed;
+            url(./assets/img/banniere2.jpg) center center no-repeat fixed;
         background-size: cover;
         height: auto;
     }

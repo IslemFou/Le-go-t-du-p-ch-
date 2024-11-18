@@ -1,4 +1,8 @@
-ms-auto: pour décaler les éléments comme dans notre exemple la ul L19 btn-outline-info: le "outline" est comme la ppté hover background: linear-gradient(to right, red, blue);
+/*
+
+ms-auto: pour décaler les éléments comme dans notre exemple la ul L19 
+
+btn-outline-info: le "outline" est comme la ppté hover background: linear-gradient(to right, red, blue);
 =>gradient sur l'axe horizontal 
  https: //developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient
 
@@ -13,4 +17,10 @@ position-fixed w-100 (pour la barre de navigation, on fait monter l'élément en
 
 
 
-    d-flex justify-content-center align-items-center=> on a fait descendre les élements le div qui contient le titre h1. border-0 : pour éliminer la bordure
+d-flex justify-content-center align-items-center=> on a fait descendre les élements le div qui contient le titre h1. border-0 : pour éliminer la bordure 
+    
+    
+    
+    
+    
+    */
